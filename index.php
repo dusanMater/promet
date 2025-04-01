@@ -10,10 +10,7 @@
     <?php
         // gesla se ne pišejo v programske stavke. napiši v svojo datoteko in datoteko izključi iz GIT-a (git ignore)
         // 
-        $servername = "10.0.0.25"; // IP računalnika, kjer se nahaja PB
-        $username = "dusan";
-        $password = "fugina";
-        $database = "alma_2025_test";
+        
 
         $conn = new mysqli($servername, $username, $password, $database);
 
